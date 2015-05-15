@@ -71,6 +71,9 @@
    <!-- Don't run CLIRR here since there's no Java code. -->
    <xwiki.clirr.skip>true</xwiki.clirr.skip>
  </properties>
+ <modules>
+    <module>jquery-file-upload</module>
+ </modules>
  <build>
    <!-- Needed to add support for the XAR packaging -->
    <extensions>
@@ -96,11 +99,4 @@
      <url>http://nexus.xwiki.org/nexus/service/local/staging/deploy/maven2/</url>
    </repository>
  </distributionManagement>
- <dependencies>
-   <dependency>
-     <groupId>org.webjars</groupId>
-     <artifactId>jquery-file-uploadtest</artifactId>
-     <version>9.8.1</version>
-   </dependency>
- </dependencies>
 </project>
